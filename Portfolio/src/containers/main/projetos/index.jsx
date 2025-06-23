@@ -28,7 +28,6 @@ const projetos = [
       "Sistema de gerenciamento de ordem de serviço, desenvolvido em React, com CSS. Permite cadastro, atualização, consulta e controle de das ordens.",
     tecnologias: "React, HTML, CSS, PostgreSQL, Figma.",
     data: "Jul, 2025",
-    github: "",
   },
   {
     titulo: "Processamento de Imagens",
