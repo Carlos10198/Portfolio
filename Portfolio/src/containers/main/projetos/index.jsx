@@ -6,6 +6,8 @@ import TelaStock from "../../../assets/images/telaAutoStock.png";
 import TelaOS from "../../../assets/images/telaOrdem.jpg";
 import FotoStock from "../../../assets/images/autoStock.png";
 import FotoOS from "../../../assets/images/OrdemFácil.png";
+import TelaProImg from "telaProcImg.png";
+import FotoImg from "LogoImg.png";
 
 const projetos = [
   {
@@ -14,7 +16,7 @@ const projetos = [
     imagemModal: TelaStock,
     descricao:
       "Sistema de gerenciamento de estoque com funcionalidade de vendas, desenvolvido em Java, com GUI pura. Permite cadastro, atualização, remoção e controle de produtos em tempo real.",
-    tecnologias: "Java, MySQL, Figma",
+    tecnologias: "Java, MySQL, Figma.",
     data: "Jul, 2024",
     github: "https://github.com/joaocjakaboski/AutoStockCar-Recreate",
   },
@@ -24,9 +26,19 @@ const projetos = [
     imagemModal: TelaOS,
     descricao:
       "Sistema de gerenciamento de ordem de serviço, desenvolvido em React, com CSS. Permite cadastro, atualização, consulta e controle de das ordens.",
-    tecnologias: "React, HTML, CSS, POSTGRE Figma",
+    tecnologias: "React, HTML, CSS, PostgreSQL, Figma.",
     data: "Jul, 2025",
     github: "https://github.com/uri-erechim/teams-2023-beetleclub",
+  },
+  {
+    titulo: "Processamento de Imagens",
+    imagemCard: FotoImg,
+    imagemModal: TelaProImg,
+    descricao:
+      "Aplicação para manipulação de imagens.",
+    tecnologias: "C#.",
+    data: "Jul, 2025",
+    github: "https://github.com/Carlos10198/MatrizesRGB",
   },
 ];
 

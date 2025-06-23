@@ -79,6 +79,12 @@ function habilidades() {
                                 <p style={{ textAlign: 'center' }}>Postman</p> 
                             </Card>
                         </li>
+                        <li> 
+                            <Card> 
+                                <MyIcon icon="mdi:language-csharp" width="100" height="100" className="postman"/>
+                                <p style={{ textAlign: 'center' }}>C#</p> 
+                            </Card>
+                        </li>
                     </ul>
                  </div>
             </div>
