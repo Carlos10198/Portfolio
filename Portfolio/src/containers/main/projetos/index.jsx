@@ -18,7 +18,7 @@ const projetos = [
       "Sistema de gerenciamento de estoque com funcionalidade de vendas, desenvolvido em Java, com GUI pura. Permite cadastro, atualização, remoção e controle de produtos em tempo real.",
     tecnologias: "Java, MySQL, Figma.",
     data: "Jul, 2024",
-    github: "https://github.com/joaocjakaboski/AutoStockCar-Recreate",
+    github: "https://github.com/Carlos10198/AutoStockCar",
   },
    {
     titulo: "Ordem Fácil",
