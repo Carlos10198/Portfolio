@@ -6,8 +6,8 @@ import TelaStock from "../../../assets/images/telaAutoStock.png";
 import TelaOS from "../../../assets/images/telaOrdem.jpg";
 import FotoStock from "../../../assets/images/autoStock.png";
 import FotoOS from "../../../assets/images/OrdemFácil.png";
-import TelaProImg from "telaProcImg.png";
-import FotoImg from "LogoImg.png";
+import TelaProImg from "../../../assets/images/telaProcImg.png";
+import FotoImg from "../../../assets/images/LogoImg.png";
 
 const projetos = [
   {
