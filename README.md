@@ -31,12 +31,23 @@ Este é o repositório do meu **portfólio pessoal**, desenvolvido para apresent
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-- **Bootstrap 5**
-- **Font Awesome** (ícones)
-- **Modo Dark/Light** com `localStorage`
+Este projeto foi desenvolvido com:
+
+### 🧩 Front-end
+
+- **React 19** — Biblioteca principal para a interface.
+- **Vite** — Ferramenta moderna de build e dev server.
+- **Bootstrap 5 + React Bootstrap** — Estilização e componentes responsivos.
+- **Styled-components** — CSS-in-JS com suporte a temas.
+- **Ant Design (Antd)** — Componentes de UI adicionais.
+- **Framer Motion** — Animações fluidas em React.
+- **Iconify & Material Design Icons** — Ícones customizados SVG.
+- **EmailJS** — Envio de mensagens pelo formulário de contato.
+
+### 🧪 Desenvolvimento
+
+- **ESLint** — Padronização e qualidade de código.
+- **gh-pages** — Deploy automático no GitHub Pages.
 
 ---
 
