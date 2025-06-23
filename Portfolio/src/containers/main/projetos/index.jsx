@@ -21,14 +21,14 @@ const projetos = [
     github: "https://github.com/Carlos10198/AutoStockCar",
   },
    {
-    titulo: "Ordem Fácil",
+    titulo: "Ordem Fácil - EM ANDAMENTO",
     imagemCard: FotoOS,
     imagemModal: TelaOS,
     descricao:
       "Sistema de gerenciamento de ordem de serviço, desenvolvido em React, com CSS. Permite cadastro, atualização, consulta e controle de das ordens.",
     tecnologias: "React, HTML, CSS, PostgreSQL, Figma.",
     data: "Jul, 2025",
-    github: "https://github.com/uri-erechim/teams-2023-beetleclub",
+    github: "",
   },
   {
     titulo: "Processamento de Imagens",
