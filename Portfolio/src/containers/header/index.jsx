@@ -31,9 +31,9 @@ function header(){
                     </ul>
                     <MyButton onClick={() => {
                         const link = document.createElement('a');
-                        link.href = '/CarlosEduardo_Bueno_Currículo.pdf';
+                        link.href = 'https://carlos10198.github.io/Portfolio/CarlosEduardo_Bueno_Currículo.pdf';
                         link.download = 'Curriculo_CarlosBueno.pdf';
-                        document.body.appendChild(link); //  Firefox
+                        document.body.appendChild(link);
                         link.click();
                         document.body.removeChild(link);
                         }}>
