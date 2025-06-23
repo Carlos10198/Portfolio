@@ -9,36 +9,50 @@ export const MyFoto = styled.div`
   width: 100%;
 
   img {
-    height: 500px;
-    width: 500px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
     border-radius: 50%;
     box-shadow: 5px 0px 18px black;
-    max-width: 100%;
-    display: block;
+    transition: all 0.3s ease-in-out;
+  }
+
+  @media (max-width: 1366px) {
+    img {
+      width: 250px;
+      height: 250px;
+    }
   }
 
   @media (max-width: 768px) {
     img {
-      height: auto !important;
-      width: 50% !important;
-      max-width: 500px;
-      margin: 0 auto;
-      display: block;
+      width: 200px;
+      height: 200px;
     }
   }
 
   @media (max-width: 425px) {
     img {
-      width: 70%;
+      width: 150px;
+      height: 150px;
     }
   }
 
-  @media (max-width: 375px), (max-width: 320px) {
+  @media (max-width: 375px) {
     img {
-      width: 80%;
+      width: 130px;
+      height: 130px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    img {
+      width: 120px;
+      height: 120px;
     }
   }
 `;
+
 
 export const MyHeader = styled.div`
   .conteudo {
