@@ -42,7 +42,7 @@ function Contato() {
           <input type="text" name="assunto" placeholder="Assunto" required />
           <input type="email" name="email" placeholder="Email" required />
           <textarea name="conteudo" placeholder="Conteúdo" rows="5" required></textarea>
-          <MyButton> <span>Enviar</span> </MyButton>
+          <MyButton type="submit"><span>Enviar</span></MyButton>
         </form>
       </div>
         </MyContato>
