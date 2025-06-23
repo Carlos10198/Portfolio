@@ -31,9 +31,11 @@ function header(){
                     </ul>
                     <MyButton onClick={() => {
                         const link = document.createElement('a');
-                        link.href = '../public/CarlosEduardo_Bueno_Currículo.pdf';
+                        link.href = '/CarlosEduardo_Bueno_Currículo.pdf';
                         link.download = 'Curriculo_CarlosBueno.pdf';
+                        document.body.appendChild(link); //  Firefox
                         link.click();
+                        document.body.removeChild(link);
                         }}>
                         <span>Currículo</span>
                         <MyIcon Icon icon="mdi:download" width="20" height="20"/>
