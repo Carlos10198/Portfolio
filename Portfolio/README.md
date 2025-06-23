@@ -1,12 +1,77 @@
-# React + Vite
+# 💼 Portfólio Pessoal – Carlos Bueno
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o repositório do meu **portfólio pessoal**, desenvolvido para apresentar minhas habilidades, trajetória e projetos como desenvolvedor. O site conta com design moderno, responsivo e modo escuro/claro.
 
-Currently, two official plugins are available:
+🔗 Acesse o portfólio online:  
+👉 [https://carlos10198.github.io/Portfolio/](https://carlos10198.github.io/Portfolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🌙 **Modo Dark/Light** — alternância de tema com salvamento de preferência do usuário.
+- 🧭 **Scrollspy** — links do menu com destaque automático conforme rolagem da página.
+- 📸 **Galeria de Projetos** — clique em um projeto para abrir um **popup com mais informações** e imagem ampliada.
+- 📱 **Responsivo** — layout adaptado para todos os dispositivos.
+- 📬 **Formulário de Contato** — seção funcional (pode ser integrada com EmailJS ou outro serviço).
+
+---
+
+## 🧱 Estrutura das Telas
+
+- **Navbar** — Navegação fixa com scroll suave e destaque de seção ativa.
+- **Header** — Apresentação com foto e título.
+- **Sobre** — Informações sobre mim e minha formação.
+- **Habilidades** — Ícones das tecnologias que domino.
+- **Projetos** — Imagens clicáveis com detalhes em modal.
+- **Contato** — Formulário direto no site.
+- **Footer** — Rodapé com créditos.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Bootstrap 5**
+- **Font Awesome** (ícones)
+- **Modo Dark/Light** com `localStorage`
+
+---
+
+## 🚀 Como Usar Localmente
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/Carlos10198/Portfolio.git
+```
+
+2. Abra o arquivo `index.html` com seu navegador, ou use a extensão **Live Server** do VS Code para facilitar o desenvolvimento.
+
+---
+
+## 📦 Deploy
+
+O site está hospedado com **GitHub Pages** e é atualizado diretamente a partir da branch principal (`main`).
+
+Para atualizar:
+
+```bash
+git add .
+git commit -m "Atualiza portfólio"
+git push origin main
+```
+
+---
+
+## 📬 Contato
+
+Se quiser falar comigo, envie um e-mail ou acesse minhas redes:
+
+- 📧 carlosbuenoedu@gmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/carlos-bueno-2740662a3/)
+- 🐙 [GitHub](https://github.com/CarlosBueno98101)
+
+---
