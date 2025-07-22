@@ -1,5 +1,5 @@
 import React from 'react';
-import Foto from '../../assets/images/imagePerfil.JPG';
+import Foto from '../../assets/images/perfil.JPG';
 import {MyFoto, MyHeader, MyIcon, MyButton} from './style';
 import { Icon } from "@iconify/react";
 import Button from 'react-bootstrap/Button';

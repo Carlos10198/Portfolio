@@ -9,8 +9,8 @@ export const MyFoto = styled.div`
   width: 100%;
 
   img {
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 450px;
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 5px 0px 18px black;
